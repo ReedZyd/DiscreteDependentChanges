@@ -601,7 +601,7 @@ class StructureLearning():
 
 
     def train_full_mixture(self, method = 'kmeans'):
-         """
+        """
         uses method from {'mixed', 'residuals', 'means', 'silh_score'}
         to select the best guess for the number of components in the full mixture
         """
